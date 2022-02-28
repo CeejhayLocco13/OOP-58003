@@ -1,11 +1,15 @@
-class Student:
-    student_id = '202112237'
-    student_name = 'Divinagracia Christian Joseph R.'
-    student_age = '20'
-    student_school = 'Adamson University'
-    student_course = 'BS CpE'
-    def display():
-        print(f'Student id: {Student.student_id}\nStudent Name: {Student.student_name}\nStudent Age: {Student.student_age}\nStudent School: {Student.student_school}
-        \nStudent Course: {Student.student_course}')
-print("Original attributes and their values of the Student class:")
-Student.display()
+class OOP_58003:
+  def __init__(self, name, studentnumber, age, 
+    self.name = name
+    self.sdentNumber = 202112237
+    self.age = 20
+    self.school = Adamson University
+    self.course = BS Computer Engineering
+  def description(self):
+    return self.name, self.studentnumber, self.age, self.school, self.course
+  
+  def display(self):
+    print("Name:", self.name,",",self.studentnumber,",",self.age,",",self.school,",",self.course)
+    
+name1 = OOP_58003("Divinagracia","CJ")
+print(name1.display())
