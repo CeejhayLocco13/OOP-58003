@@ -1,4 +1,3 @@
-# OOP-58003
 class Student:
     student_id = '202112237'
     student_name = 'Divinagracia Christian Joseph R.'
